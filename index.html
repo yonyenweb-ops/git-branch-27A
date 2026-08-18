@@ -311,5 +311,27 @@
     </div>
   </footer>
 
+  <!-- Sign in modal -->
+  <div class="modal-overlay" id="signin-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="signin-title">
+      <button type="button" class="modal__close" id="signin-close" aria-label="Close">&times;</button>
+
+      <h2 id="signin-title">Sign In</h2>
+      <p class="modal__subtitle">Sign in to save items to your favorites.</p>
+
+      <form class="modal__form" id="signin-form">
+        <label for="signin-email">Email</label>
+        <input type="email" id="signin-email" placeholder="you@example.com" required />
+
+        <label for="signin-password">Password</label>
+        <input type="password" id="signin-password" placeholder="Enter your password" required minlength="6" />
+
+        <button type="submit" class="btn btn--primary modal__submit">Sign In</button>
+      </form>
+
+      <p class="modal__footer">Don't have an account? <a href="#">Create one</a></p>
+    </div>
+  </div>
+
 </body>
 </html>
