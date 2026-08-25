@@ -1,1 +1,5 @@
 .env
+# /vendor/a.php
+# /vendor/b.php
+/vendor
+/nodemodule
